@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #171616;
-  background-color:#00000094;
+  color: #0b0b0b;
+  background-color: #f4ede4;
 }
 
 h1,
@@ -20,18 +20,18 @@ a {
 }
 
 a:hover {
-  color: #0f0846;
+  color: #0a346a;
   text-decoration: none;
 }
 
 .link-two {
-  color: #000000;
+  color: #ece0e0;
   transition: all 0.5s ease;
 }
 
 .link-two:hover {
   text-decoration: underline;
-  color: #000000;
+  color: #c6eae3;
 }
 
 .link-one {
@@ -62,8 +62,8 @@ a:hover {
 }
 
 .container {
-  margin-top: -30px;
-  margin-bottom: -30px;
+  margin-top: -20px;
+  margin-bottom: -10px;
 }
 
 @media (min-width: 768px) {
@@ -115,7 +115,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #242222;
+  color: #000000;
 }
 
 .color-b {
@@ -269,7 +269,7 @@ a:hover {
 
 /*------/ Space Padding /------*/
 .section-t8 {
-  padding-top: 8rem;
+  padding-top: 4rem;
 }
 
 @media (max-width: 767px) {
@@ -557,6 +557,7 @@ a:hover {
   text-decoration: none;
   background-color: #000000;
   color: #ffffff;
+  border-radius: 15px;
 }
 
 .btn.btn-a:hover {
@@ -578,8 +579,8 @@ a:hover {
 }
 
 .btn.btn-b-n {
-  background-color: #2eca6a18;
-  color: #ffffff;
+  color: #000000;
+  font-size: 20px;
   border-radius: 10px;
 }
 
@@ -605,12 +606,13 @@ a:hover {
 --------------------------------------------------------------*/
 .navbar-default {
   transition: all 0.5s ease-in-out;
-  backdrop-filter: blur(5px);
-  padding-top: 28px;
-  padding-bottom: 28px;
+  background-color: #e0e4e7;
+  backdrop-filter:  blur(4px);
+  padding-top: 30px;
+  padding-bottom: 20px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
+  box-shadow: 1px 2px 15px rgba(75, 77, 77, 0.3);
 }
 
 .navbar-default .nav-search {
@@ -694,11 +696,11 @@ a:hover {
 }
 
 .navbar-default.navbar-trans .nav-link:before {
-  background-color: #060c2a;
+  background-color: #000000;
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
-  color: #000000;
+  color: #001c24;
 }
 
 .navbar-default.navbar-trans .show>.nav-link,
@@ -710,8 +712,8 @@ a:hover {
 
 .navbar-default.navbar-reduce {
   transition: all 0.5s ease-in-out;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 20px;
+  padding-bottom: 12px;
 }
 
 .navbar-default.navbar-reduce .nav-link {
@@ -748,7 +750,7 @@ a:hover {
   visibility: hidden;
   transition: all 0.5s cubic-bezier(0.3, 0.65, 0.355, 1) 0s, opacity 0.31s ease 0s, height 0s linear 0.36s;
   margin: 0;
-  border-radius: 0;
+  border-radius: 8px;
   padding: 12px 0;
 }
 
@@ -771,7 +773,7 @@ a:hover {
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: #ffffff;
-  color: #2eca6a;
+  color: #136492;
   transition: all 500ms ease;
 }
 
@@ -1410,9 +1412,11 @@ a:hover {
 }
 
 .property-grid .grid-option .custom-select {
-  border-radius: 0;
+  border-radius: 5px;
   width: 200px;
-  border-color: #313131;
+  border-color: #077ba1;
+  background-color: #14151548;
+  backdrop-filter: blur(10px);
 }
 
 .property-grid .grid-option .custom-select:hover,
@@ -1423,6 +1427,12 @@ a:hover {
 
 .property-grid .grid-option .custom-select option {
   border-color: #313131;
+  background-color: #6b7981e8 ;
+  backdrop-filter: blur(5px);
+}
+
+.property-grid .grid-option .custom-select option:hover{
+  background-color: #003e64;
 }
 
 /*------/ Property Single /-----*/
@@ -2131,9 +2141,9 @@ a:hover {
 # Footer
 --------------------------------------------------------------*/
 .section-footer {
-  padding-top: 60px;
+  padding-top: 50px;
   margin-top: 60px;
-  background: #ffffff85;
+  background-color: #dadfe1;
 }
 
 .section-footer ul {
@@ -2151,7 +2161,7 @@ a:hover {
 }
 
 footer {
-  background: #f3f3f37e;
+  background: #abb7b7;
   text-align: center;
   padding: 30px 0;
 }
